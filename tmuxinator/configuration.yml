@@ -1,0 +1,11 @@
+project_name: Settings
+project_root: ~/Configurations
+tabs:
+  - etc: cd etc;vim
+  - vim: cd vim;vim
+  - zsh: cd zsh;vim
+  - git: cd git;vim
+  - tmux: cd tmux;vim
+  - tmuxinator: cd tmuxinator;vim
+  - shellscripts: cd shellscripts;vim
+  - shell:

@@ -1,0 +1,10 @@
+# ~/.tmuxinator/jesperrasmussen.yml
+# you can make as many tabs as you wish...
+
+project_name: jesperrasmussen
+project_root: ~/Personal/jesperrasmussen.com/octopress
+cli_args: -v -2
+tabs:
+  - editor: cd source/_posts && vim
+  - watcher: rake watch
+  - deploy: git pull

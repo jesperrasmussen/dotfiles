@@ -1,0 +1,10 @@
+# ~/.tmuxinator/dashboard.yml
+# you can make as many tabs as you wish...
+
+project_name: Kaalut 
+project_root: ~/Work/Dashboard
+cli_args: -v -2
+tabs:
+  - editor: vim
+  - shell: git pull
+  - server: dashing start

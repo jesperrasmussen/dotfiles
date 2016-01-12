@@ -1,0 +1,11 @@
+# ~/.tmuxinator/hastur.yml
+# you can make as many tabs as you wish...
+
+project_name: hastur 
+project_root: ~/Work/APM/hastur
+cli_args: -v -2
+tabs:
+  - editor: vim
+  - shell: git pull
+  - server: rails s
+  - console: rails c
