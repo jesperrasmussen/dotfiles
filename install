@@ -2,13 +2,42 @@
 
 set -e
 
-CONFIG="install.conf.yaml"
-DOTBOT_DIR="dotbot"
+PS3='Please enter your choice: '
+options=("Mac OS X" "Linux" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Mac OS X")
+            echo "Installing Mac dotfiles"
+            CONFIG_RAW="MacOSX"
+            break
+            ;;
+        "Linux")
+            echo "Installing Linux dotfiles"
+            CONFIG_RAW="Linux"
+            break
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo invalid option;;
+    esac
+done
 
-DOTBOT_BIN="bin/dotbot"
-BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [ -n "$CONFIG_RAW" ]; then
 
-cd "${BASEDIR}"
-git submodule update --init --recursive "${DOTBOT_DIR}"
+  CONFIG="$CONFIG_RAW.conf.yaml"
+  DOTBOT_DIR="dotbot"
 
-"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+  DOTBOT_BIN="bin/dotbot"
+  BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+  cd "${BASEDIR}"
+  git submodule update --init --recursive "${DOTBOT_DIR}"
+
+  echo "Installing common settings"
+  "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "Common.conf.yaml" "${@}"
+
+  echo "Running Dotbot using Config: $CONFIG"
+  "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+fi
