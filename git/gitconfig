@@ -121,7 +121,7 @@
 	user = jesperrasmussen
 
 [core]
-	excludesfile = /Users/jesperrasmussen/.gitignore
+	excludesfile = ~/.gitignore
 	editor = vim
 
 [commit]
