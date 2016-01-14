@@ -3,18 +3,26 @@
 set -e
 
 PS3='Please enter your choice: '
-options=("Mac OS X" "Linux" "Quit")
+options=("Mac OS X" "Linux" "Install SPF-13 Vim" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
         "Mac OS X")
             echo "Installing Mac dotfiles"
             CONFIG_RAW="MacOSX"
+            BASE_INSTALL=1
             break
             ;;
         "Linux")
             echo "Installing Linux dotfiles"
             CONFIG_RAW="Linux"
+            BASE_INSTALL=1
+            break
+            ;;
+        "Install SPF-13 Vim")
+            echo "Installing SPF-13 Vim."
+            CONFIG_RAW="SPF-13"
+            BASE_INSTALL=0
             break
             ;;
         "Quit")
@@ -33,10 +41,12 @@ if [ -n "$CONFIG_RAW" ]; then
   BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
   cd "${BASEDIR}"
-  git submodule update --init --recursive "${DOTBOT_DIR}"
+  git submodule update --init --recursive
 
-  echo "Installing common settings"
-  "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "Common.conf.yaml" "${@}"
+  if [ $BASE_INSTALL -gt 0 ]; then
+    echo "Installing common settings"
+    "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "Common.conf.yaml" "${@}"
+  fi
 
   echo "Running Dotbot using Config: $CONFIG"
   "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
