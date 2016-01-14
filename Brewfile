@@ -71,5 +71,4 @@ cask '1password'
 #appstore 'Reditr'
 
 # Link applications correctly
-linkapps
-
+#linkapps
