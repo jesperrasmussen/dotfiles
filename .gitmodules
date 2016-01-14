@@ -4,3 +4,10 @@
 [submodule "spf13-vim"]
   path = spf-13-vim
   url = https://github.com/spf13/spf13-vim
+[submodule "zgen"]
+	path = zgen
+  branch = master
+	url = https://github.com/tarjoilija/zgen.git
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/sorin-ionescu/prezto.git
