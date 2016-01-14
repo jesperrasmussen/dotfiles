@@ -1,12 +1,19 @@
 - clean: ['~']
-- link: {
-  ~/.gitconfig: git/gitconfig
-  ~/.gitignore_global: git/gitignore
-  ~/.maid: maid
-  ~/.tmux.conf: tmux/tmux.conf
-  ~/.tmuxinator: tmuxinator
-}
+
+- link:
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore
+    ~/.maid: maid
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.tmuxinator: tmuxinator
+    ~/.zgen: zgen
+    ~/.zprezto: prezto
+    ~/.zshrc: zshrc
+    ~/.zshenv: zshenv
+    ~/.zlogin: zlogin
+    ~/.zpreztorc: zpreztorc
+    ~/.zprofile: zprofile
+
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules]
-  - [curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh, Installing SPF-13 vim]
   - [gem install tmuxinator, Installing tmuxinator]

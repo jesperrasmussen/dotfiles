@@ -1,0 +1,4 @@
+- clean:
+- link:
+- shell:
+    - ["curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh", Installing SPF-13 vim - this might take a while]
