@@ -47,8 +47,6 @@ Maid.rules do
 
       if 15.minutes.since?(modified_at(path)) and !path.include? "_UNPACK_"
         move(path, mkdir("#$tvPath/TV/#$finalPath"))
-        puts $filePath
-        puts path
       end
     end
   end
