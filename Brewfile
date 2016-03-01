@@ -28,6 +28,7 @@ brew 'tmux'
 
 # Install sshfs for development
 brew 'sshfs'
+brew 'htop'
 
 # Run additional commands for sshfs
 #sudo kextunload -b com.github.osxfuse.filesystems.osxfusefs
