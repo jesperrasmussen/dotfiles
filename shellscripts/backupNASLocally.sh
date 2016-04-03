@@ -1,15 +1,15 @@
 #!/bin/bash
 
 backupLocations=(
-                 "/media/506721bd-4f78-463e-9574-ba9f7c2ced07/Documents" 
-                 "/media/506721bd-4f78-463e-9574-ba9f7c2ced07/Learning" 
-                 "/media/506721bd-4f78-463e-9574-ba9f7c2ced07/Photography" 
-                 "/media/506721bd-4f78-463e-9574-ba9f7c2ced07/Pictures" 
-                 "/media/506721bd-4f78-463e-9574-ba9f7c2ced07/Projects" 
-                 "/media/506721bd-4f78-463e-9574-ba9f7c2ced07/Work"
+                 "/mnt/data1/Documents" 
+                 "/mnt/data1/Learning" 
+                 "/mnt/data1/Photography" 
+                 "/mnt/data1/Pictures" 
+                 "/mnt/data1/Projects" 
+                 "/mnt/data1/Work"
                  )
 
-backupDestination="/export/Recovery/Backup"
+backupDestination="/mnt/recovery/Backup"
 
 for path in "${backupLocations[@]}"
 do
