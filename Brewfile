@@ -27,7 +27,6 @@ brew 'node'
 brew 'tmux'
 
 # Install sshfs for development
-brew 'sshfs'
 brew 'htop'
 
 # Run additional commands for sshfs
@@ -36,10 +35,10 @@ brew 'htop'
 #	sudo chmod +s /Library/Filesystems/osxfusefs.fs/Support/load_osxfusefs
 
 # Install brew cask for apps
-tap 'phinze/cask'
-brew 'brew-cask'
+tap 'caskroom/cask'
 
 # Install apps using brew-cask
+cask 'sshfs'
 cask 'charles'
 cask 'iterm2'
 cask 'hazel'
@@ -62,10 +61,21 @@ cask 'google-chrome'
 cask 'firefox'
 
 cask 'spotify'
-cask 'sublime-text3'
+cask 'sublime-text'
 cask 'evernote'
 cask 'dash'
 cask '1password'
+
+#Work
+cask 'flowdock'
+cask 'java'
+tap 'tap homebrew/versions'
+brew 'homebrew/versions/elasticsearch17'
+brew 'imagemagick'
+brew 'redis'
+brew 'mysql'
+brew 'npm'
+brew 'node'
 
 #App Store apps
 #appstore 'Twitter'
