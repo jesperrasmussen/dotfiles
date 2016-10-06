@@ -23,6 +23,9 @@ brew 'node'
 # Setup vim using MacVim
 #brew 'macvim', args--override-system-vim
 
+# Install git trix
+brew 'tig'
+
 # Install tmux
 brew 'tmux'
 
