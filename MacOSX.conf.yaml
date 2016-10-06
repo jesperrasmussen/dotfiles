@@ -1,6 +1,10 @@
 - clean: ['~']
-- link: {}
+- link:
+    ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User: sublime/User
 - shell:
-    - ["ruby -e $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)", Installing Homebrew]
+    - ["/usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\"", Installing Homebrew]
+
     - [brew tap homebrew/bundle]
     - [brew bundle --file=Brewfile]
+    - ["curl -sSL https://get.rvm.io | bash -s stable --ruby", Installing RVM]
+    - [gem install tmuxinator, Installing tmuxinator]
