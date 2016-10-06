@@ -13,7 +13,5 @@
     ~/.zlogin: zlogin
     ~/.zpreztorc: zpreztorc
     ~/.zprofile: zprofile
-
 - shell:
   - [git submodule update --init --recursive, Installing/updating submodules]
-  - [gem install tmuxinator, Installing tmuxinator]
