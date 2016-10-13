@@ -23,7 +23,7 @@ if ! zgen saved; then
 
     # prezto options
     zgen prezto editor key-bindings 'emacs'
-    zgen prezto prompt theme 'sorin'
+    zgen prezto prompt theme 'agnoster'
 
     # prezto and modules
     zgen prezto
@@ -52,6 +52,7 @@ export TERM=xterm-256color
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/Qt5.5.1/5.5/clang_64/bin
 export LC_CTYPE=en_US.UTF-8
 export LANG=en_US.UTF-8
 LANG=en_US.UTF-8
