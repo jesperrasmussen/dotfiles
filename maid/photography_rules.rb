@@ -28,42 +28,72 @@ Maid.rules do
 
   #TODO
   # Set up basedir
+  @photos_basedir = '~/Photography'
+  @photos_states = ['1. Develop', '2. Process', '3. Import', '4. Archive', '5. Backup', '6. Deliver']
 
+  #def transition_next(path)
+  #end
+
+  def get_path_state(state)
+    "#{@photos_basedir}/#{@photos_states[state]}/"
+  end
+
+  def get_relative_path(album_path)
+    album_name = File.basename(album_path)
+
+    [get_year(album_path), album_name].join('/')
+  end
+
+  def get_year(album_path)
+    File.basename(File.dirname(album_path))
+  end
 
   rule 'Done developing' do
-    #
-    dir('~/Photography/1. Develop/*').each do |path|
+    dir('~/Photography/1.Develop/*/*/').each do |album_path|
+      
       #It's marked as delivery project - for 3rd party
-      if contains_tag?(path, 'Blue')
-        #Copy contents of Output to Delivery folder
-        remove_tag(path, 'Blue')
-        add_tag(path, 'Green')
+      if contains_tag?(album_path, 'Blue')
+
+        #Copy contents of Output to Delivery folder - and name it something related to current project.
+        copy(dir("#{album_path}/Output/*.jpg"), mkdir(get_path_state(5) + get_relative_path(album_path)))
+
+        #remove_tag(album_path, 'Blue')
+        add_tag(album_path, 'Green')
       end
-      if contains_tag?(path, 'Green')
-        remove_tag(path, 'Green')
-        move(path, "~/Photography/2.Process/")
+      if contains_tag?(album_path, 'Green')
+        puts "green!"
+        #remove_tag(path, 'Green')
+        move(album_path, mkdir(get_path_state(1) + get_year(album_path) + "/"))
       end
     end
   end
 
   rule 'Done postprocessing' do
-    dir('~/Photography/2. Process/*').each do |path|
+    dir('~/Photography/2. Process/*/*/').each do |album_path|
       #Wipe Capture One directory from Output. Originals should be enough.
+      trash("#{album_path}/Output/CaptureOne")
+
+      #Remove JPG's from Capture - this is probably something done elsewhere
+      dir("#{album_path}/Capture/*.jpg").each do |jpegpath|
+        trash(jpegpath)
+      end
+
+      #Remove everything in Trash dir.
+      dir("#{album_path}/Trash/*").each do |path|
+        trash(path)
+      end
+
+      move(album_path, mkdir(get_path_state(2) + get_year(album_path) + "/"))
     end
   end
 
   rule 'Import photos' do
     dir('~/Photography/3. Import/*').each do |path|
-      #Remove JPG's from Capture - this is probably something done elsewhere
-      dir('#{path}/Capture/*.jpg').each do |path|
-      end
 
       #Import Output into Photos
 
-      #Remove everything in Trash dir.
-
       #Move folder to next state
-
+      #move(path, "~/Photography/4. Archive/")
     end
   end
 
@@ -72,7 +102,7 @@ Maid.rules do
       #Is this moot for now?
       if contains_tag?(path, 'Green')
         remove_tag(path, 'Green')
-        move(path, "~/Photography/5. Backup/")
+        #move(path, "~/Photography/5. Backup/")
       end
     end
 
@@ -87,5 +117,5 @@ Maid.rules do
 
   # TODO 
   # Add rules for notifying on photos in Backup for a while. Set rules for when they ought to be deleted.
-  # Add statemanagement. It should be possible to factor out.
+  # Add statemanagement. It should be possible to factor out seperately.
 end
