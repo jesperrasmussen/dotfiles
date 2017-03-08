@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Theme - Primer/primer.dark.tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Primer Dark.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
