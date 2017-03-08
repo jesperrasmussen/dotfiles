@@ -1,3 +1,2 @@
-/../Volumes/Media    -fstype=nfs,noowners,nolockd,noresvport,hard,bg,intr,rw,tcp,nfc nfs://192.168.0.8/export/Media
-/../Volumes/Data    -fstype=nfs,noowners,nolockd,noresvport,hard,bg,intr,rw,tcp,nfc nfs://192.168.0.8/export/Data
+#/../Volumes/Media    -fstype=nfs,noowners,nolockd,noresvport,hard,bg,intr,rw,tcp,nfc nfs://192.168.0.8/export/Media
 /../Volumes/Mounts    -fstype=nfs,noowners,nolockd,noresvport,hard,bg,intr,rw,tcp,nfc nfs://192.168.0.8/export/Mounts
