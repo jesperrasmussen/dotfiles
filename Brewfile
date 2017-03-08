@@ -80,6 +80,9 @@ brew 'mysql'
 brew 'npm'
 brew 'node'
 
+#Maid related
+brew 'tag'
+
 #App Store apps
 #appstore 'Twitter'
 #appstore 'Reditr'
