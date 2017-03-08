@@ -3,6 +3,7 @@
 - link:
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore
+    ~/.hammerspoon: hammerspoon
     ~/.maid: maid
     ~/.tmux.conf: tmux/tmux.conf
     ~/.tmuxinator: tmuxinator
