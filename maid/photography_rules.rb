@@ -60,6 +60,9 @@ Maid.rules do
         #remove_tag(album_path, 'Blue')
         add_tag(album_path, 'Green')
       end
+      if contains_tag?(album_path, 'Red')
+        #remove dir("#{album_path}/Output/)
+
       if contains_tag?(album_path, 'Green')
         puts "green!"
         #remove_tag(path, 'Green')
