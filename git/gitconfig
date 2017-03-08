@@ -2,13 +2,26 @@
   email = me@jesperrasmussen.com
   name = Jesper Rasmussen
 
+[github]
+    user = jesperrasmussen
+
+[core]
+	excludesfile = /Users/jesperrasmussen/.gitignore_global
+    editor = vim
+    whitespace = trailing-space,space-before-tab
+
 [color]
-    diff = auto
     status = auto
     branch = auto
     interactive = auto
-    ui = auto
+    ui = true
 
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red
+    new = green bold
+    whitespace = red reverse
 
 [alias]
     # shotcuts
@@ -114,15 +127,6 @@
   added = yellow
   changed = green
   untracked = cyan
-
-
-
-[github]
-	user = jesperrasmussen
-
-[core]
-	excludesfile = ~/.gitignore
-	editor = vim
 
 [commit]
   template = ~/.gitmessage
