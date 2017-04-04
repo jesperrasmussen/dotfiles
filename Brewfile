@@ -54,10 +54,12 @@ cask 'sequel-pro'
 cask 'alfred'
 cask 'hipchat'
 cask 'mou'
+cask 'cyberduck'
 
 #Lets remap Caps Lock, shall we?
 cask 'seil'
 cask 'karabiner'
+cask 'hammerspoon'
 
 #What are we? BROWSERS!
 cask 'google-chrome'
