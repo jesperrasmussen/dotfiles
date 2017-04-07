@@ -58,7 +58,7 @@ cask 'cyberduck'
 
 #Lets remap Caps Lock, shall we?
 cask 'seil'
-cask 'karabiner'
+cask 'karabiner-elements'
 cask 'hammerspoon'
 
 #What are we? BROWSERS!
