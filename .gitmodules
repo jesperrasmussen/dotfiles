@@ -11,9 +11,6 @@
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/sorin-ionescu/prezto.git
-[submodule "sublime/User/SetiUI-Icons-Sublime"]
-	path = sublime/User/SetiUI-Icons-Sublime
-	url = https://github.com/mrmartineau/SetiUI-Icons-Sublime.git
 [submodule "Omnifocus/perspective-icons"]
 	path = Omnifocus/perspective-icons
 	url = https://github.com/deaghean/omnifocus-perspective-icons.git
