@@ -80,10 +80,11 @@ brew 'imagemagick'
 brew 'redis'
 brew 'mysql'
 brew 'npm'
-brew 'node'
 
 #Maid related
 brew 'tag'
+
+brew 'ansible'
 
 #App Store apps
 #appstore 'Twitter'
