@@ -1,2 +1,14 @@
 # Auto start a session when Zsh is launched in a SSH connection.
-zstyle ':prezto:module:tmux:auto-start' remote 'yes'
+
+zstyle ':prezto:module:prompt' theme 'powerlevel9k'
+
+zstyle ':prezto:module:syntax-highlighting' color 'yes'
+
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+    'main' \
+    'brackets' \
+    'pattern' \
+    'line' \
+    'cursor' \
+    'root'
+
