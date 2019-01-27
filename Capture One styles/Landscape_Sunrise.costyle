@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="-0.352" />
+  <E K="Contrast" V="8.400" />
+  <E K="Brightness" V="-17.210" />
+  <E K="Saturation" V="13.333" />
+  <E K="WhiteBalanceTint" V="5.304" />
+  <E K="WhiteBalanceTemperature" V="5059.333" />
+  <E K="ColorBalance" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceShadow" V="0.958;0.963;0.990" />
+  <E K="ColorBalanceMidtone" V="1.000;0.989;0.997" />
+  <E K="ColorBalanceHighlight" V="1.000;0.988;1.000" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.006" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.999" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="22.667" />
+  <E K="HighlightRecovery" V="100.000" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="Name" V="Landscape_Sunrise" />
+  <E K="UUID" V="9c0352f7-3a11-4b68-89d2-a2833cd0d33b" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensLightFalloff" V="|61.6|1" />
+  <E K="Vignetting" V="-0.906666|1|0|1" />
+  <E K="Clarity" V="40.000" />
+  <E K="ClarityMethod" V="1" />
+</SL>

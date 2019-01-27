@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="0.000" />
+  <E K="Contrast" V="14.667" />
+  <E K="Brightness" V="4.924" />
+  <E K="Saturation" V="-22.028" />
+  <E K="WhiteBalanceTint" V="0.231" />
+  <E K="WhiteBalanceTemperature" V="5144.968" />
+  <E K="ColorBalance" V="1.000;0.909;0.823" />
+  <E K="ColorBalanceShadow" V="1.028;1.028;1.028" />
+  <E K="ColorBalanceMidtone" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceHighlight" V="0.920;0.920;0.920" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.011" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.986" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="40.667" />
+  <E K="HighlightRecovery" V="95.333" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.014;0.495,0.476;1.000,1.000" />
+  <E K="Name" V="Landscape_Vintage" />
+  <E K="UUID" V="896ffaa9-9656-4faa-bd2a-b74dca765fa6" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensGeoAbr" V="|100.0|1|0|0.00000" />
+  <E K="LensLightFalloff" V="|78.4|1" />
+  <E K="Vignetting" V="-1.386666|1|0|1" />
+  <E K="Clarity" V="58.667" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,0,0.000000,-27.027040,-7.837839,6.498054,7.548638,9.945524,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,0.000000,35.810806,0.000000,90.342407,34.583652,27.412451,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,-4.459458,82.432426,0.000000,128.225662,140.225662,151.089478,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;" />
+</SL>

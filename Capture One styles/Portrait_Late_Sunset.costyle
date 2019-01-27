@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="0.240" />
+  <E K="Contrast" V="7.753" />
+  <E K="Brightness" V="-8.475" />
+  <E K="WhiteBalanceTint" V="1.612" />
+  <E K="WhiteBalanceTemperature" V="7153.310" />
+  <E K="ColorBalance" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceShadow" V="1.062;1.062;1.062" />
+  <E K="ColorBalanceMidtone" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceHighlight" V="0.952;0.952;0.952" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.006" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.877" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="15.333" />
+  <E K="HighlightRecovery" V="92.667" />
+  <E K="GradationCurve" V="0.000,0.000;0.947,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="Name" V="Portrait_Late_Sunset" />
+  <E K="UUID" V="5f237505-84bd-4fec-a36f-9da195c39ee3" />
+  <E K="StyleSource" V="Styles" />
+  <E K="Clarity" V="16.000" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,2,0.000000,-8.648657,0.000000,144.957184,129.233444,122.817116,-30.000000,22.500000,-37.500000,37.500000,25.000000,0.797297,0;" />
+</SL>

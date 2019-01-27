@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="FilmCurve" V="CanonEOS5DMk3-Auto.fcrv" />
+  <E K="Exposure" V="0.000" />
+  <E K="BwLightHue" V="0.000" />
+  <E K="BwLightSaturation" V="0.000" />
+  <E K="BwDarkHue" V="72.000" />
+  <E K="BwDarkSaturation" V="56.000" />
+  <E K="BwEnabled" V="0" />
+  <E K="Contrast" V="6.109" />
+  <E K="Brightness" V="30.784" />
+  <E K="Saturation" V="-9.333" />
+  <E K="WhiteBalanceTint" V="0.402" />
+  <E K="WhiteBalanceTemperature" V="6827.178" />
+  <E K="ColorBalance" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceShadow" V="1.057;1.057;1.057" />
+  <E K="ColorBalanceMidtone" V="1.021;1.021;1.021" />
+  <E K="ColorBalanceHighlight" V="1.025;1.025;1.025" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.018" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.971" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="34.000" />
+  <E K="HighlightRecovery" V="75.333" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="Name" V="Portrait_Warm_3" />
+  <E K="UUID" V="ec629750-5233-4b9e-8a91-2c89ac05b45d" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensGeoAbr" V="|88.0|1|0|0.00000" />
+  <E K="LensLightFalloff" V="|80.0|1" />
+  <E K="Vignetting" V="-0.320000|1|0|1" />
+  <E K="LensLccLightFalloff" V="0" />
+  <E K="LensLccLightFalloffAmount" V="80.000" />
+  <E K="Clarity" V="34.667" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,2,0.000000,-4.324320,0.000000,159.976639,108.750969,80.178978,-30.000000,22.500000,-37.500000,37.500000,25.000000,0.000000,0;" />
+</SL>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="0.000" />
+  <E K="Contrast" V="13.194" />
+  <E K="Brightness" V="3.590" />
+  <E K="Saturation" V="-34.028" />
+  <E K="ColorBalance" V="1.000;0.915;0.835" />
+  <E K="ColorBalanceShadow" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceMidtone" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceHighlight" V="1.000;1.000;1.000" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.009" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.999" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="7.333" />
+  <E K="HighlightRecovery" V="95.333" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.078;0.566,0.551;1.000,0.941" />
+  <E K="Name" V="Portrait_Vintage" />
+  <E K="UUID" V="2dc7ee15-d763-4b6b-ac5b-bd4c105f7589" />
+  <E K="StyleSource" V="Styles" />
+  <E K="Clarity" V="14.667" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,0,0.000000,-27.027040,-7.837839,6.498054,7.548638,9.945524,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;" />
+</SL>

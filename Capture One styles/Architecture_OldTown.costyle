@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="FilmCurve" V="CanonEOS5DMk3-Auto.fcrv" />
+  <E K="Exposure" V="0.289" />
+  <E K="Contrast" V="10.204" />
+  <E K="Brightness" V="-19.931" />
+  <E K="Saturation" V="1.333" />
+  <E K="WhiteBalanceTint" V="-0.188" />
+  <E K="WhiteBalanceTemperature" V="4783.634" />
+  <E K="ColorBalance" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceShadow" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceMidtone" V="1.000;0.942;0.887" />
+  <E K="ColorBalanceHighlight" V="1.000;1.000;1.000" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.010" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.907" />
+  <E K="TargetShadow" V="0.000;0.000;0.000;0.021" />
+  <E K="TargetHighlight" V="1.000;1.000;1.000;1.000" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="34.000" />
+  <E K="HighlightRecovery" V="94.667" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="Name" V="Architecture_OldTown" />
+  <E K="UUID" V="09024366-8a6f-45b5-97fe-12f1fab52511" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensGeoAbr" V="|104.0|1|0|0.00000" />
+  <E K="Vignetting" V="-0.266667|1|0|1" />
+  <E K="Clarity" V="50.667" />
+  <E K="ClarityStructure" V="21.333" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,0,0.000000,5.405420,0.000000,111.568092,91.859917,67.696487,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,0.000000,-63.513523,0.000000,39.470814,38.521397,40.089489,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;" />
+</SL>

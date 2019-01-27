@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="700">
+  <E K="Contrast" V="-4.210" />
+  <E K="Saturation" V="-100.000" />
+  <E K="TargetShadow" V="0.000;0.000;0.000;0.200" />
+  <E K="TargetHighlight" V="1.000;1.000;1.000;1.000" />
+  <E K="HighlightRecovery" V="38.335" />
+  <E K="GCurve" V="0.240,0.186;0.780,0.777" />
+  <E K="GCurveR" V="" />
+  <E K="GCurveG" V="" />
+  <E K="GCurveB" V="" />
+  <E K="USMAmount" V="245.000" />
+  <E K="USMRadius" V="1.454" />
+  <E K="USMThreshold" V="0.500" />
+  <E K="NoiseDetailsAmount" V="51.000" />
+  <E K="FineGrainAmount" V="60.000" />
+  <E K="Name" V="NB_2 + Grain" />
+  <E K="UUID" V="{e0b1281c-a50c-430c-a085-e71d276b77f2}" />
+  <E K="StyleSource" V="Styles" />
+  <E K="Contact_Creator" V="Thomas Blariau                      " />
+  <E K="Contact_Address" V="10 rue Roodenberg" />
+  <E K="Contact_City" V="Auderghem" />
+  <E K="Contact_State_Province" V="Bruxelles" />
+  <E K="Contact_Postalcode" V="1160" />
+  <E K="Contact_Country" V="Belgique" />
+  <E K="Contact_Phones" V="0486/26.10.32" />
+  <E K="Contact_Emails" V="info@thomasblariau.com" />
+  <E K="Contact_Websites" V="http://www.thomasblariau.com" />
+  <E K="Status_Copyrightnotice" V="www.thomasblariau.com                                 " />
+  <E K="Vignetting" V="-1.290179|1|0|1" />
+  <E K="Clarity" V="31.125" />
+  <E K="ClarityStructure" V="3.000" />
+  <E K="ClarityPunchAmount" V="0.000" />
+  <E K="ClarityMethod" V="0" />
+</SL>

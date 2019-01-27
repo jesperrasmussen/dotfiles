@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="FilmCurve" V="CanonEOS5DMk3-Auto.fcrv" />
+  <E K="Exposure" V="0.289" />
+  <E K="Contrast" V="10.204" />
+  <E K="Brightness" V="-1.264" />
+  <E K="Saturation" V="1.333" />
+  <E K="ColorBalance" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceShadow" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceMidtone" V="1.000;0.942;0.887" />
+  <E K="ColorBalanceHighlight" V="1.000;1.000;1.000" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.010" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.907" />
+  <E K="TargetShadow" V="0.000;0.000;0.000;0.021" />
+  <E K="TargetHighlight" V="1.000;1.000;1.000;1.000" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="22.667" />
+  <E K="HighlightRecovery" V="50.667" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="USMAmount" V="240.000" />
+  <E K="Name" V="Portrait_Warm" />
+  <E K="UUID" V="cf8b697e-80f9-4131-981a-87131675b662" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensGeoAbr" V="|119.2|1|0|0.00000" />
+  <E K="Vignetting" V="-0.586667|1|0|1" />
+  <E K="Clarity" V="16.000" />
+  <E K="ClarityMethod" V="3" />
+</SL>

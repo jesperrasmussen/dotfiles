@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="0.214" />
+  <E K="Contrast" V="4.080" />
+  <E K="Brightness" V="-16.000" />
+  <E K="Saturation" V="9.333" />
+  <E K="WhiteBalanceTint" V="2.843" />
+  <E K="WhiteBalanceTemperature" V="5693.988" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.015" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.954" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="50.667" />
+  <E K="HighlightRecovery" V="67.333" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="Name" V="Landscape_Midday" />
+  <E K="UUID" V="797f7eef-aa50-40b5-a92e-f5404c7403d4" />
+  <E K="StyleSource" V="Styles" />
+  <E K="Vignetting" V="-1.013334|1|0|1" />
+  <E K="Clarity" V="24.000" />
+  <E K="ClarityStructure" V="-16.000" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,0,-8.918916,23.648661,0.000000,46.766537,65.723732,77.439682,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,0.000000,19.594580,0.000000,120.937744,136.260696,153.766525,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,0.000000,45.945950,0.000000,82.523994,92.599220,87.613922,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;" />
+</SL>

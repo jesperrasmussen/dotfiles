@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="0.000" />
+  <E K="Contrast" V="13.194" />
+  <E K="Brightness" V="-7.076" />
+  <E K="Saturation" V="-23.361" />
+  <E K="ColorBalance" V="1.000;0.915;0.835" />
+  <E K="ColorBalanceShadow" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceMidtone" V="1.000;1.000;1.000" />
+  <E K="ColorBalanceHighlight" V="1.000;1.000;1.000" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.009" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.999" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="12.000" />
+  <E K="HighlightRecovery" V="95.333" />
+  <E K="GradationCurve" V="0.000,0.000;0.064,0.057;0.208,0.210;0.587,0.586;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="LensChromAbrCustomCurve" V="0.0,0.0000;3000.0,0.8713;6000.0,1.7425;9000.0,2.6138;12000.0,3.4851;20768.0,6.0315|0.0,0.0000;3000.0,1.0448;6000.0,1.6717;9000.0,1.6038;12000.0,1.1260;20768.0,1.3863" />
+  <E K="LensChromAbrDefaultCurve" V="" />
+  <E K="LensChromAbrOrigin" V="2" />
+  <E K="LensChromAbrCustomName" V="IMG_1885" />
+  <E K="ChromaticAberEnabled" V="1" />
+  <E K="Name" V="Architecture_OldTown_2" />
+  <E K="UUID" V="241e67ba-08b0-4fe1-a870-4f19237b2db0" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensGeoAbr" V="|100.0|1|0|0.00000" />
+  <E K="LensLightFalloff" V="|0.0|1" />
+  <E K="LensRadialBlur" V="||0.0|1" />
+  <E K="Vignetting" V="-0.266666|1|0|1" />
+  <E K="Clarity" V="70.667" />
+  <E K="ClarityStructure" V="17.333" />
+  <E K="ClarityMethod" V="3" />
+  <E K="ColorCorrections" V="1,1,0,0.000000,-27.027040,-7.837839,6.498054,7.548638,9.945524,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,0.000000,25.675671,-1.486486,83.369644,54.490273,50.610893,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;1,1,0,0.000000,15.540530,-1.081082,194.568085,171.591431,134.571976,-20.000000,20.000000,-20.000000,20.000000,20.000000,0.000000,0;" />
+</SL>

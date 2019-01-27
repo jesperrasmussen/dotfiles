@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SL Engine="800">
+  <E K="Exposure" V="0.543" />
+  <E K="Contrast" V="4.562" />
+  <E K="Brightness" V="14.923" />
+  <E K="Saturation" V="-4.000" />
+  <E K="WhiteBalanceTint" V="0.402" />
+  <E K="WhiteBalanceTemperature" V="6827.180" />
+  <E K="Shadow" V="0.000;0.000;0.000;0.009" />
+  <E K="Highlight" V="1.000;1.000;1.000;0.979" />
+  <E K="Midtone" V="0.000;0.000;0.000;0.000" />
+  <E K="ShadowRecovery" V="30.667" />
+  <E K="HighlightRecovery" V="22.000" />
+  <E K="GradationCurve" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveRed" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveGreen" V="0.000,0.000;1.000,1.000" />
+  <E K="GradationCurveBlue" V="0.000,0.000;1.000,1.000" />
+  <E K="Name" V="Portrait_Warm_2" />
+  <E K="UUID" V="aa13f64d-36de-4c42-a70c-0684ff34b715" />
+  <E K="StyleSource" V="Styles" />
+  <E K="LensGeoAbr" V="|104.8|1|0|0.00000" />
+  <E K="Vignetting" V="-0.640000|1|0|0" />
+  <E K="Clarity" V="34.667" />
+  <E K="ClarityMethod" V="3" />
+</SL>
