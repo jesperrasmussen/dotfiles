@@ -1,0 +1,10 @@
+name: mediaserver
+root: ~/
+
+windows:
+  - mediaserver:
+    layout: main-vertical
+    panes:
+      - disk:
+        - ssh jesperrasmussen@10.0.0.123
+        - df -h

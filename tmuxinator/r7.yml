@@ -1,0 +1,17 @@
+# ~/.tmuxinator/r7.yml
+# you can make as many tabs as you wish...
+
+name: r7
+root: ~/mnt/tv2
+windows:
+  - workarea:
+      layout: even-horizontal
+      panes: 
+        - initializer:
+          - /usr/bin/ssh-add -K ~/.ssh/id_rsa
+          - ~/dotfiles/shellscripts/workMount.sh
+        - remote:
+          - ssh tv2php5
+          - cd web/
+          - zsh
+      
