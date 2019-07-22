@@ -111,3 +111,12 @@ export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 source /usr/local/bin/aws_zsh_completer.sh
+source ~/dotfiles/tmuxinator/bin/tmuxinator.zsh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:~/Library/Python/3.7/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/jesr/.sdkman"
+[[ -s "/Users/jesr/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jesr/.sdkman/bin/sdkman-init.sh"
+export PATH="/usr/local/opt/node@10/bin:$PATH"
