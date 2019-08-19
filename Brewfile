@@ -30,6 +30,8 @@ brew 'tig'
 brew 'tmux'
 
 # Install sshfs for development
+cask 'osxfuse'
+brew 'sshfs'
 brew 'htop'
 
 # Run additional commands for sshfs
@@ -41,7 +43,6 @@ brew 'htop'
 tap 'caskroom/cask'
 
 # Install apps using brew-cask
-cask 'sshfs'
 cask 'charles'
 cask 'iterm2'
 cask 'hazel'
@@ -52,12 +53,13 @@ cask 'vlc'
 cask 'omnifocus'
 cask 'sequel-pro'
 cask 'alfred'
-cask 'hipchat'
-cask 'mou'
+cask 'slack'
 cask 'cyberduck'
+cask 'intellij-idea'
+cask 'datagrip'
+cask 'visual-studio-code'
 
 #Lets remap Caps Lock, shall we?
-cask 'seil'
 cask 'karabiner-elements'
 cask 'hammerspoon'
 
@@ -66,20 +68,16 @@ cask 'google-chrome'
 cask 'firefox'
 
 cask 'spotify'
-cask 'sublime-text'
 cask 'evernote'
-cask 'dash'
 cask '1password'
 
 #Work
-cask 'flowdock'
-cask 'java'
 tap 'tap homebrew/versions'
-brew 'homebrew/versions/elasticsearch17'
-brew 'imagemagick'
-brew 'redis'
-brew 'mysql'
 brew 'npm'
+
+#K8s
+brew 'kubernetes-cli'
+brew 'kubectx'
 
 #Maid related
 brew 'tag'
