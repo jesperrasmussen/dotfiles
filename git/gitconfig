@@ -1,6 +1,7 @@
 [user]
   email = me@jesperrasmussen.com
   name = Jesper Rasmussen
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMC8T2rmxdJHrNj2q+cEx//k9t34bXEe7XEzclMsE1jr
 
 [github]
     user = jesperrasmussen
@@ -132,3 +133,11 @@
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[push]
+	autoSetupRemote = true
