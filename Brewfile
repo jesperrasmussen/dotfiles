@@ -10,11 +10,11 @@
 
 # Setup basic packages I always need
 # zsh stuff
-brew 'jandedobbeleer/oh-my-posh/oh-my-posh'
+brew 'oh-my-posh'
 
 
 # Setup nodejs
-#brew 'node'
+brew 'node'
 
 # Setup nginx
 #brew 'nginx'
@@ -30,13 +30,16 @@ brew 'tmux'
 
 brew 'htop'
 
+# Claude stuff
+brew 'opencode'
+
 # Run additional commands for sshfs
 #sudo kextunload -b com.github.osxfuse.filesystems.osxfusefs
 #sudo /bin/cp -RfX /usr/local/Cellar/osxfuse/2.6.2/Library/Filesystems/osxfusefs.fs /Library/Filesystems
 #	sudo chmod +s /Library/Filesystems/osxfusefs.fs/Support/load_osxfusefs
 
 # Install brew cask for apps
-tap 'homebrew/cask'
+#tap 'homebrew/cask'
 
 # Install apps using brew-cask
 cask 'charles'
@@ -58,8 +61,10 @@ cask 'spotify'
 cask 'obsidian'
 cask '1password'
 
+cask 'ghostty'
+
 #Work
-tap 'tap homebrew/versions'
+#tap 'tap homebrew/versions'
 
 #K8s
 #brew 'kubernetes-cli'
